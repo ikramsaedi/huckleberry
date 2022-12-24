@@ -1,12 +1,55 @@
+/* Define all CSS variables globally */
+:root {
+  --primary-color: hsl(160deg, 100%, 30%);
+
+  --secondary-light-gold: hsl(45deg, 100%, 50%);
+  --secondary-dark-gold: hsl(45deg, 100%, 40%);
+
+  --black: hsl(0deg, 0%, 0%);
+  --very-dark-grey: hsl(0deg, 0%, 10%);
+  --dark-grey: hsl(0deg, 0%, 30%);
+  --medium-grey: hsl(0deg, 0%, 40%);
+  --light-grey: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+
+  --base-grid-unit: 8px;
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
 
-html,
 body {
-  margin: 0;
-  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Add styles here! */
+strong {
+  color: var(--primary-color);
+}
+
+.indented-heading {
+  background: var(--secondary-light-gold);
+  border-bottom: var(--base-grid-unit) solid var(--secondary-dark-gold);
+  width: max-content;
+  padding: 16px 32px;
+}
+
+main > .max-width-wrapper {
+  background: var(--medium-grey);
+  padding: 60px;
+}
+
+.card {
+  background: white;
+  width: min-content;
+}
+
+p {
+  line-height: 1.5;
+}
+
+header {
+  margin: 64px;
+}
