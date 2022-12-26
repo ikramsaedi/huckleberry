@@ -34,19 +34,22 @@ strong {
   border-bottom: var(--base-grid-unit) solid var(--secondary-dark-gold);
   width: max-content;
   padding: 16px 32px;
-  margin-left: -8px;
+  margin-left: -32px;
 }
 
 main {
   background: var(--medium-grey);
+  height: 450px;
+  border-top: 8px solid var(--light-grey);
+  padding: 40px;
 }
 
 .card {
   background: white;
   width: fit-content;
   max-width: 800px;
-  margin: auto;
-  border-top: 8px solid white;
+  padding: 8px 24px;
+  margin: 0 -24px;
 }
 
 p {
