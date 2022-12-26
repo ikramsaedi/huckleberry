@@ -37,9 +37,8 @@ strong {
   margin-left: -8px;
 }
 
-main > .max-width-wrapper {
+main {
   background: var(--medium-grey);
-  padding: 60px;
 }
 
 .card {
@@ -47,12 +46,24 @@ main > .max-width-wrapper {
   width: fit-content;
   max-width: 800px;
   margin: auto;
+  border-top: 8px solid white;
 }
 
 p {
   line-height: 1.5;
+  font-size: 1.25rem;
 }
 
-header {
-  margin: 64px;
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+.intro-chunk {
+  max-width: 415px;
+  margin-bottom: 64px;
+}
+h1 {
+  margin: 48px 0;
 }
